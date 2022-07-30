@@ -32,6 +32,8 @@ linkedin_username: vishnu-indusekharan
 #youtube_username: jekyll
 #orcid_username: 0000-0000-0000-0000
 #googlescholar_username: D847cGsAAAAJ
+[Download Full Resume](images/vishnu_indusekharan_resume.pdf)
+
 
 # Additional icon links
 #additional_links:
@@ -60,10 +62,10 @@ about_content: | # this will include new lines to allow paragraphs
   * MPLS enabled VPN applications: L3VPN, L2VPN
   * Network Automation
 
-  [Download Full Resume](images/vishnu_indusekharan_resume.pdf)
-
+  
 content:
-  - title: Experience (Only Past 3)
+  - title: Experience 
+    sub_title: Listed only last 3 companies for brevity 
     layout: list
     content:
       - layout: left
@@ -108,16 +110,16 @@ content:
       - layout: top-left
         title: Cisco
         sub_title:
-          - CCIE SP #62851
-          - CCNP R&S
-          - CCNA R&S and Security
-          - Specialist (IOS-XR, SP, Enterprise) 
+          * CCIE SP #62851
+          * CCNP R&S
+          * CCNA R&S and Security
+          * Specialist (IOS-XR, SP, Enterprise) 
 
       - layout: top-left
         title: Others
         sub_title:
-          - JNCIA
-          - Python
+          * JNCIA
+          * Python
 
   - title: When I'm Not Working
     layout: text

@@ -1,4 +1,4 @@
-* Personal website - Powered by Jekyll and GitHub pages.*  
+* Personal website - Powered by Jekyll and GitHub pages
 
 ## [Demo](https://vishnu-indusekharan.github.io/resume/)
 
