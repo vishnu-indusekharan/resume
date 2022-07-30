@@ -32,14 +32,14 @@ linkedin_username: vishnu-indusekharan
 #youtube_username: jekyll
 #orcid_username: 0000-0000-0000-0000
 #googlescholar_username: D847cGsAAAAJ
-[Download Full Resume](images/vishnu_indusekharan_resume.pdf)
+
 
 
 # Additional icon links
-#additional_links:
-#- title: Link name
-#  icon: Font Awesome brand icon name (eg. fab fa-twitter) (https://fontawesome.com/icons?d=gallery&s=brands&m=free)
-#  url: Link url (eg. https://google.com)
+additional_links:
+- title: Download Resume
+  icon: fa-light fa-file-pdf
+  url: images/vishnu_indusekharan_resume.pdf
 # - title: another link
 #   icon: font awesome brand icon name (eg. fab fa-twitter) (https://fontawesome.com/icons?d=gallery&s=brands&m=free)
 #   url: Link url (eg. https://google.com)
@@ -108,16 +108,17 @@ content:
     layout: list
     content:
       - layout: top-left
-        title: Cisco
+        #title: Cisco
         sub_title:
-          * CCIE SP #62851
+          Cisco
+          * CCIE SP
           * CCNP R&S
           * CCNA R&S and Security
           * Specialist (IOS-XR, SP, Enterprise) 
 
       - layout: top-left
-        title: Others
-        sub_title:
+        sub_title: 
+          Others 
           * JNCIA
           * Python
 
