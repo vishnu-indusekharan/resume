@@ -20,7 +20,7 @@ darkmode: true
 
 # Social links
 #twitter_username: jekyllrb
-github_username:  vishnu-indusekharan
+github_username: vishnu-indusekharan
 #stackoverflow_username: "00000001"
 #dribbble_username: jekyll
 #facebook_username: jekyll
@@ -55,6 +55,7 @@ about_content: | # this will include new lines to allow paragraphs
   Network Engineer having 8+ years of experience with expertise in Routing & Switching, Service Provider, Security, Wireless and Python. 
   Possessing effective organizational skills and excellent working knowledge of networking technologies and having a commitment to keep up to date with the latest developments.
   - <a href=images/vishnu_indusekharan_resume.pdf>Download Resume</a>
+
 content:
   - title: Experience
     layout: list
@@ -64,48 +65,57 @@ content:
         sub_title: Network Development Engineer II
         location: London, United Kingdom
         caption: June 2022 - Present
+
       - layout: right
         title: Microsoft
         sub_title: Network Service Engineer II
         location: Bangalore, India 
         caption: April 2021 - May 2022
+      
       - layout: right
         title: Cisco
         sub_title: Consulting Engineer
         caption: Jan 2018 - May 2021
         location: Bangalore, India 
+      
       - layout: right
         title: USEReady
         sub_title: Network Engineer
         caption: October 2016 - October 2017
         location: Bangalore, India
+      
       - layout: right
         title: Cisco
         sub_title: Tier 2 Network Engineer
         caption: October 2014 - October 2016
         location: Bangalore, India 
+
   - title: Certification
     layout: list
     content:
       - layout: top-right
         title: CCIE Service Provider
         credential: 62851
-        link: [Show Credential](https://www.credly.com/badges/d10abf8f-c9df-4f59-a95a-db01d49374de)
+        link: <a href="https://www.credly.com/badges/d10abf8f-c9df-4f59-a95a-db01d49374de">Verify</a>
+
       - layout: top-right
         title: JNCIA
         credential: JPR00310417
-        link: [Show Credential](https://www.credly.com/badges/29248594-653d-4034-9b19-3ce9fdd26536)
+        link: <a href="https://www.credly.com/badges/29248594-653d-4034-9b19-3ce9fdd26536">Verify</a>
+
       - layout: top-right
         title: CCNP R&S
         credential: CSCO12726185
-        link: [Show Credential](https://www.credly.com/badges/65242514-e103-4ab5-aac1-d69b975b2974)
+        link: <a href="https://www.credly.com/badges/65242514-e103-4ab5-aac1-d69b975b2974">Verify</a>
+
       - layout: top-right
         title: DevNet Associate
         credential: 62851
-        link: [Show Credential](https://www.credly.com/badges/d8e9ab6f-43ec-4056-bab8-d6f3b978b5c6)
+        link: <a href="https://www.credly.com/badges/d8e9ab6f-43ec-4056-bab8-d6f3b978b5c6">Verify</a>
+
       - layout: top-right
-        title: Others
-        link: [Show Credential](https://www.credly.com/users/vishnu-indusekharan/badges)
+        title: View All
+        link: <a href="https://www.credly.com/users/vishnu-indusekharan/badges">View</a>
 #  - title: A Little More About Me
 #    layout: text
 #    content: | # this will include new lines to allow paragraphs
@@ -127,16 +137,3 @@ sass:
 
 plugins:
  - jekyll-seo-tag
-
-exclude : [
-  "Gemfile",
-  "Gemfile.lock",
-  "node_modules",
-  "vendor/bundle/",
-  "vendor/cache/",
-  "vendor/gems/",
-  "vendor/ruby/",
-  "lib/",
-  "scripts/",
-  "docker-compose.yml",
-  ]
