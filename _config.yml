@@ -54,77 +54,97 @@ about_profile_image: images/dp.jpg
 about_content: | # this will include new lines to allow paragraphs
   Network Engineer having 8+ years of experience with expertise in Routing & Switching, Service Provider, Security, Wireless and Python. 
   Possessing effective organizational skills and excellent working knowledge of networking technologies and having a commitment to keep up to date with the latest developments.
-  - <a href=images/vishnu_indusekharan_resume.pdf>Download Resume</a>
+  [Download Resume](images/vishnu_indusekharan_resume.pdf)
 
 content:
   - title: Experience
     layout: list
     content:
-      - layout: right
+      - layout: left
         title: Amazon Web Service
         sub_title: Network Development Engineer II
-        location: London, United Kingdom
         caption: June 2022 - Present
+        description: |
+         Technologies : BGP, OSPF, MPLS, SR, TE, RSVP
+         Platform : Cisco, Juniper, CRPD, Commodity Hardware, BIRD, FRRouting
+         Languages : Python
 
-      - layout: right
+      - layout: left
         title: Microsoft
         sub_title: Network Service Engineer II
-        location: Bangalore, India 
         caption: April 2021 - May 2022
-      
-      - layout: right
+        description: |
+         Technologies : BGP, ISIS, MPLS, SR, TE, RSVP
+         Platform : Cisco, Juniper, Arista, Sonic
+         Languages : Python, Kusto
+         * Help customers to Plan, Design Implement and migrate new technologies on project-by-project basis.
+         * Network Validation and Design recommendations.
+         * Prepare Specific MOPs and technical support for Migration windows.
+         * Analyzing & rectifying the Design defects and implementing them with the help of stakeholders.
+
+      - layout: left
         title: Cisco
         sub_title: Consulting Engineer
         caption: Jan 2018 - May 2021
-        location: Bangalore, India 
+        description: |
+          Handles Customer's issues related to below technologies on IOS, IOS-XE and IOS-XR
+          * Routing : EIGRP, BGP, OSPF, ISIS, NAT, HSRP, PBR, Multicast, LISP
+          * SP : MPLS, L2VPN, L3VPN, Traffic Engineering, RSVP, SR
+          * WAN : ISG, BNG, L2TP/VPDN, CEM
+          * ACCESS : PPP, DSL, ISDN, T1/E1, 3G/4G
+          * Others : AAA, DHCP , RADIUS, TACACS+
+          * Platform : ASR1k, ISR4k, ASR9k, ISRG2s
+
       
-      - layout: right
+      - layout: left
         title: USEReady
         sub_title: Network Engineer
         caption: October 2016 - October 2017
-        location: Bangalore, India
+        description: |
+         * Performing installation and configuration migration and up-gradation of Cisco devices.
+         * Working on End of Life hardware upgrades on head end and remote end devices.
+         * Implementing configurations and implementation instructions into Client’s change management.
+         * As part of new design, providing network related configuration to the firewall and load-balancer teams.
       
-      - layout: right
+      - layout: left
         title: Cisco
         sub_title: Tier 2 Network Engineer
         caption: October 2014 - October 2016
-        location: Bangalore, India 
+        description: |
+         * Performing installation and configuration migration and up-gradation of Cisco devices.
+         * Working on End of Life hardware upgrades on head end and remote end devices.
+         * Implementing configurations and implementation instructions into Client’s change management.
+         * As part of new design, providing network related configuration to the firewall and load-balancer teams.
 
   - title: Certification
     layout: list
     content:
-      - layout: top-right
+      - layout: top-left
         title: CCIE Service Provider
-        credential: 62851
-        link: <a href="https://www.credly.com/badges/d10abf8f-c9df-4f59-a95a-db01d49374de">Verify</a>
 
-      - layout: top-right
+      - layout: top-middle
         title: JNCIA
-        credential: JPR00310417
-        link: <a href="https://www.credly.com/badges/29248594-653d-4034-9b19-3ce9fdd26536">Verify</a>
 
       - layout: top-right
         title: CCNP R&S
-        credential: CSCO12726185
-        link: <a href="https://www.credly.com/badges/65242514-e103-4ab5-aac1-d69b975b2974">Verify</a>
 
-      - layout: top-right
-        title: DevNet Associate
-        credential: 62851
-        link: <a href="https://www.credly.com/badges/d8e9ab6f-43ec-4056-bab8-d6f3b978b5c6">Verify</a>
+      - layout: bottom-left
+        title: Specialist (IOS-XR, SP, Enterprise) 
 
-      - layout: top-right
-        title: View All
-        link: <a href="https://www.credly.com/users/vishnu-indusekharan/badges">View</a>
-#  - title: A Little More About Me
-#    layout: text
-#    content: | # this will include new lines to allow paragraphs
-#      This is where you can write a little more about yourself. You could title this section **Interests** and include some of your other interests.
-#
-#      Or you could title it **Skills** and write a bit more about things that make you more desirable, like *leadership* or *teamwork*
+      - layout: bottom-middle
+        title: CCNA - R&S, Security
+
+      - layout: bottom-right
+        title: Python
+  - title: When I'm Not Working
+    layout: text
+    content: | # this will include new lines to allow paragraphs
+      You will find me with my camera, I'm interested in photography and I enjoy landscape and macro photography. I like to showcase my work on instagram if
+      you would like to take a look - [vishnu.indusekharan](https://www.instagram.com/vishnu.indusekharan/).
+
 
 # Footer
-footer_show_references: true
+footer_show_references: false
 # references_title: References on request (Override references text)
 
 # Build settings
