@@ -36,10 +36,10 @@ linkedin_username: vishnu-indusekharan
 
 
 # Additional icon links
-additional_links:
-- title: Download Resume
-  icon: fa-light fa-file-pdf
-  url: images/vishnu_indusekharan_resume.pdf
+#additional_links:
+#- title: Download Resume
+#  icon: fa-light fa-file-pdf
+#  url: images/vishnu_indusekharan_resume.pdf
 # - title: another link
 #   icon: font awesome brand icon name (eg. fab fa-twitter) (https://fontawesome.com/icons?d=gallery&s=brands&m=free)
 #   url: Link url (eg. https://google.com)
@@ -61,11 +61,10 @@ about_content: | # this will include new lines to allow paragraphs
   * Traffic engineering: RSVP-TE, SR, In house solutions in Amazon and Microsoft
   * MPLS enabled VPN applications: L3VPN, L2VPN
   * Network Automation
-
+  [Download my resume](images/vishnu_indusekharan_resume.pdf)
   
 content:
-  - title: Experience 
-    sub_title: Listed only last 3 companies for brevity 
+  - title: Experience (Listing last 3 companies for brevity)
     layout: list
     content:
       - layout: left
@@ -109,16 +108,11 @@ content:
     content:
       - layout: top-left
         #title: Cisco
-        sub_title:
-          Cisco
+        sub_title: |
           * CCIE SP
           * CCNP R&S
           * CCNA R&S and Security
           * Specialist (IOS-XR, SP, Enterprise) 
-
-      - layout: top-left
-        sub_title: 
-          Others 
           * JNCIA
           * Python
 
