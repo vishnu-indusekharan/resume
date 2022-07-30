@@ -62,7 +62,7 @@ about_content: | # this will include new lines to allow paragraphs
   * Traffic engineering: RSVP-TE, SR, In house solutions in Amazon and Microsoft
   * MPLS enabled VPN applications: L3VPN, L2VPN
   * Network Automation
-  
+
   [Download my resume](images/vishnu_indusekharan_resume.pdf)
   
 content:
@@ -71,7 +71,6 @@ content:
     content:
       - layout: left
         title: Amazon Web Service
-        icon: fa-brands fa-aws
         sub_title: Network Development Engineer II
         caption: June 2022 - Present
         description: |
@@ -81,7 +80,6 @@ content:
 
       - layout: left
         title: Microsoft
-        icon: fa-brands fa-microsoft
         sub_title: Network Service Engineer II
         caption: April 2021 - May 2022
         description: |
@@ -92,8 +90,7 @@ content:
          * Analyzing & rectifying the Design defects and implementing them with the help of stakeholders.
 
       - layout: left
-        title: Cisco
-        icon: fa-regular fa-bridge-suspension
+        title: Cisco Systems
         sub_title: Consulting Engineer
         caption: Jan 2018 - May 2021
         description: |
@@ -105,12 +102,27 @@ content:
           * Others : AAA, DHCP , RADIUS, TACACS+
           * Platform : ASR1k, ISR4K, ASR9K, ISRG2s
 
-  - title: 
-    layout: text
-    content: | # this will include new lines to allow paragraphs
-      Listed only last 3 companies for brevity, detailed description and job durations can is avialable in my resume. 
+      - layout: left
+        title: USEReady
+        sub_title: Network Engineer
+        caption: October 2016 - October 2017
+        description: |
+          * Working with individual businesses on analyzing the requirements for secure extranet connections 
+          * Creating a design based on those requirements.
+          * Performing installation and configuration migration and up-gradation of network devices.
+          * Working on End of Life hardware upgrades on head end and remote end devices.
+          * Implementing configurations and implementation instructions into Client’s change management
 
-
+      - layout: left
+        title: Cisco Systems
+        sub_title: Tier 2 Network Engineer
+        caption: October 2014 - October 2016
+        description: |
+          * Support for network related issues in Cisco sites and Cisco partner sites.
+          * Identify, Troubleshoot and resolve LAN/WAN and Wireless network issues in window time.
+          * Implement new network as per the client requirement.
+          * Configuring the new Labs and extending the functionalities of existing Labs for CISCO Systems.
+          
   - title: Certification
     layout: text
     content: |
