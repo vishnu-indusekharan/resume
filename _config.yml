@@ -20,13 +20,13 @@ darkmode: true
 
 # Social links
 #twitter_username: jekyllrb
+linkedin_username: vishnu-indusekharan
 github_username: vishnu-indusekharan
 #stackoverflow_username: "00000001"
 #dribbble_username: jekyll
 #facebook_username: jekyll
 #flickr_username: jekyll
-#instagram_username: jekyll
-linkedin_username: vishnu-indusekharan
+instagram_username: vishnu.indusekharan
 #xing_username: jekyll
 #pinterest_username: jekyll
 #youtube_username: jekyll
@@ -56,15 +56,17 @@ about_profile_image: images/dp.jpg
 about_content: | # this will include new lines to allow paragraphs
   8+ years experience in world-class IP Networks majorly responsible for Live site, Designing, Internet traffic engineering, and infrastructure build at cloud scale. 
   Possessing effective organizational skills and excellent working knowledge of networking technologies and having a commitment to keep up to date with the latest developments.
+
   Works on:
   * Core Routing protocols: BGP, ISIS, OSPF, LDP
   * Traffic engineering: RSVP-TE, SR, In house solutions in Amazon and Microsoft
   * MPLS enabled VPN applications: L3VPN, L2VPN
   * Network Automation
+  
   [Download my resume](images/vishnu_indusekharan_resume.pdf)
   
 content:
-  - title: Experience (Listing last 3 companies for brevity)
+  - title: Experience
     layout: list
     content:
       - layout: left
@@ -103,13 +105,16 @@ content:
           * Others : AAA, DHCP , RADIUS, TACACS+
           * Platform : ASR1k, ISR4K, ASR9K, ISRG2s
 
+  - title: 
+    layout: text
+    content: | # this will include new lines to allow paragraphs
+      Listed only last 3 companies for brevity, detailed description and job durations can is avialable in my resume. 
+
+
   - title: Certification
-    layout: list
-    content:
-      - layout: top-left
-        #title: Cisco
-        sub_title: |
-          * CCIE SP
+    layout: text
+    content: |
+          * CCIE SP #62851
           * CCNP R&S
           * CCNA R&S and Security
           * Specialist (IOS-XR, SP, Enterprise) 
