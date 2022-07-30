@@ -52,38 +52,45 @@ linkedin_username: vishnu-indusekharan
 # about_title: About Me (Use this to override about section title)
 about_profile_image: images/dp.jpg
 about_content: | # this will include new lines to allow paragraphs
-  Network Engineer having 8+ years of experience with expertise in Routing & Switching, Service Provider, Security, Wireless and Python. 
+  8+ years experience in world-class IP Networks majorly responsible for Live site, Designing, Internet traffic engineering, and infrastructure build at cloud scale. 
   Possessing effective organizational skills and excellent working knowledge of networking technologies and having a commitment to keep up to date with the latest developments.
-  [Download Resume](images/vishnu_indusekharan_resume.pdf)
+  Works on:
+  * Core Routing protocols: BGP, ISIS, OSPF, LDP
+  * Traffic engineering: RSVP-TE, SR, In house solutions in Amazon and Microsoft
+  * MPLS enabled VPN applications: L3VPN, L2VPN
+  * Network Automation
+
+  [Download Full Resume](images/vishnu_indusekharan_resume.pdf)
 
 content:
-  - title: Experience
+  - title: Experience (Only Past 3)
     layout: list
     content:
       - layout: left
         title: Amazon Web Service
+        icon: fa-brands fa-aws
         sub_title: Network Development Engineer II
         caption: June 2022 - Present
         description: |
-         Technologies : BGP, OSPF, MPLS, SR, TE, RSVP
-         Platform : Cisco, Juniper, CRPD, Commodity Hardware, BIRD, FRRouting
-         Languages : Python
+         * Technologies : BGP, OSPF, MPLS, SR, TE, RSVP
+         * Platform : Cisco, Juniper, CRPD, Commodity Hardware, BIRD, FRRouting
+         * Languages : Python
 
       - layout: left
         title: Microsoft
+        icon: fa-brands fa-microsoft
         sub_title: Network Service Engineer II
         caption: April 2021 - May 2022
         description: |
-         Technologies : BGP, ISIS, MPLS, SR, TE, RSVP
-         Platform : Cisco, Juniper, Arista, Sonic
-         Languages : Python, Kusto
+         * Technologies : BGP, ISIS, MPLS, SR, TE, RSVP
+         * Platform : Cisco, Juniper, Arista, Sonic
+         * Languages : Python, Kusto
          * Help customers to Plan, Design Implement and migrate new technologies on project-by-project basis.
-         * Network Validation and Design recommendations.
-         * Prepare Specific MOPs and technical support for Migration windows.
          * Analyzing & rectifying the Design defects and implementing them with the help of stakeholders.
 
       - layout: left
         title: Cisco
+        icon: fa-regular fa-bridge-suspension
         sub_title: Consulting Engineer
         caption: Jan 2018 - May 2021
         description: |
@@ -93,49 +100,25 @@ content:
           * WAN : ISG, BNG, L2TP/VPDN, CEM
           * ACCESS : PPP, DSL, ISDN, T1/E1, 3G/4G
           * Others : AAA, DHCP , RADIUS, TACACS+
-          * Platform : ASR1k, ISR4k, ASR9k, ISRG2s
-
-      
-      - layout: left
-        title: USEReady
-        sub_title: Network Engineer
-        caption: October 2016 - October 2017
-        description: |
-         * Performing installation and configuration migration and up-gradation of Cisco devices.
-         * Working on End of Life hardware upgrades on head end and remote end devices.
-         * Implementing configurations and implementation instructions into Client’s change management.
-         * As part of new design, providing network related configuration to the firewall and load-balancer teams.
-      
-      - layout: left
-        title: Cisco
-        sub_title: Tier 2 Network Engineer
-        caption: October 2014 - October 2016
-        description: |
-         * Performing installation and configuration migration and up-gradation of Cisco devices.
-         * Working on End of Life hardware upgrades on head end and remote end devices.
-         * Implementing configurations and implementation instructions into Client’s change management.
-         * As part of new design, providing network related configuration to the firewall and load-balancer teams.
+          * Platform : ASR1k, ISR4K, ASR9K, ISRG2s
 
   - title: Certification
     layout: list
     content:
       - layout: top-left
-        title: CCIE Service Provider
+        title: Cisco
+        sub_title:
+          - CCIE SP #62851
+          - CCNP R&S
+          - CCNA R&S and Security
+          - Specialist (IOS-XR, SP, Enterprise) 
 
-      - layout: top-middle
-        title: JNCIA
+      - layout: top-left
+        title: Others
+        sub_title:
+          - JNCIA
+          - Python
 
-      - layout: top-right
-        title: CCNP R&S
-
-      - layout: bottom-left
-        title: Specialist (IOS-XR, SP, Enterprise) 
-
-      - layout: bottom-middle
-        title: CCNA - R&S, Security
-
-      - layout: bottom-right
-        title: Python
   - title: When I'm Not Working
     layout: text
     content: | # this will include new lines to allow paragraphs
