@@ -54,7 +54,7 @@ about_profile_image: images/dp.jpg
 about_content: | # this will include new lines to allow paragraphs
   Network Engineer having 8+ years of experience with expertise in Routing & Switching, Service Provider, Security, Wireless and Python. 
   Possessing effective organizational skills and excellent working knowledge of networking technologies and having a commitment to keep up to date with the latest developments.
-
+  - <a href=images/vishnu_indusekharan_resume.pdf>Download Resume</a>
 content:
   - title: Experience
     layout: list
