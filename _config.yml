@@ -3,7 +3,7 @@ repository: vishnu-indusekharan/resume
 # favicon: Directory of your favicon (eg. images/favicon.ico)(optional)
 
 # Content configuration version
-version: 3
+version: 2
 
 # Personal info
 name: Vishnu Indusekharan
@@ -62,7 +62,7 @@ about_content: | # this will include new lines to allow paragraphs
   Works on:
   * Core Routing protocols: BGP, ISIS, OSPF, LDP, MPLS, RSVP, Controller based routing
   * Traffic engineering: RSVP-TE, SR, In house solutions in Amazon and Microsoft
-  * Network Automation and Infrastructure as code.
+  * Network Automation and Infrastructure as code
 
   [Download my resume](images/Vishnu-Indusekharan-2025.pdf)
   
